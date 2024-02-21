@@ -1,5 +1,5 @@
 streamlit==1.5.0
-pypdfium2==1.2.2
+pypdfium2==4.27.0
 pytesseract==0.3.7
 pillow==8.0.0
 torch==1.9.1
