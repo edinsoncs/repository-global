@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+
 from pytesseract import image_to_string
 from PIL import Image
 from io import BytesIO
@@ -15,7 +15,6 @@ import os
 from tempfile import NamedTemporaryFile
 import time
 
-load_dotenv()
 
 # 1. Convert PDF file into images via pypdfium2
 
